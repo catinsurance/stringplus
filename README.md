@@ -8,7 +8,7 @@ Currently not on luarocks or luvit/lit but I'm working on that.
 
 ## Usage
 
-This adds many new functions to the vanilla string library. An example is shown below.
+This adds many new functions to the vanilla string library. A few examples are shown below.
 
 ```lua
 local string = require("main")
@@ -18,6 +18,24 @@ print(foo) -- I have a favorite number.
 
 print(string.insert(foo, 2, "don't ")) -- I don't have a favorite number.
 
+```
+
+```lua
+local string = require("main")
+local foo = "There are 26 letters in the alphabet."
+
+local bar = string.split(foo, " ")
+for _,v in pairs(bar) do
+  print(v)
+end
+
+-- There
+-- are
+-- 26
+-- letters
+-- in
+-- the
+-- alphabet.
 ```
 
 ## Contributing
