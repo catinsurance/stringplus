@@ -13,7 +13,7 @@ local string = require("filepath to stringplus.")
 Alternatively, if that isn't working, you can try this:
 
 ```lua
-local string = require("filepath to stringplus.lua")
+local string = dofile("filepath to stringplus.lua")
 ```
 
 ## Usage
