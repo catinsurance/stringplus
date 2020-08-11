@@ -11,7 +11,7 @@ Currently not on luarocks or luvit/lit but I'm working on that.
 This adds many new functions to the vanilla string library. A few examples are shown below.
 
 ```lua
-local string = require("main")
+local string = require("stringplus")
 local foo = "I have a favorite number."
 
 print(foo) -- I have a favorite number.
@@ -21,7 +21,7 @@ print(string.insert(foo, 2, "don't ")) -- I don't have a favorite number.
 ```
 
 ```lua
-local string = require("main")
+local string = require("stringplus")
 local foo = "There are 26 letters in the alphabet."
 
 local bar = string.split(foo, " ")
@@ -37,6 +37,10 @@ end
 -- the
 -- alphabet.
 ```
+
+## Documentation
+
+Documentation can be found on the wiki found [here.](https://github.com/maya-bee/stringplus/wiki)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
