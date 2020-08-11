@@ -4,7 +4,17 @@ This library is intended to replace the default string library. It includes more
 
 ## Installation
 
-Currently not on luarocks or luvit/lit but I'm working on that.
+Download the "stringplus.lua" file by cloning this repository. To access the extra features, put this near the top of your script.
+
+```lua
+local string = require("filepath to stringplus.")
+```
+
+Alternatively, if that isn't working, you can try this:
+
+```lua
+local string = require("filepath to stringplus.lua")
+```
 
 ## Usage
 
