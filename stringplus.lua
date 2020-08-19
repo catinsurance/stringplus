@@ -1,6 +1,6 @@
 local stringplus = {
   _VERSION = "VERSION 0.0.1 RUNNING IN " .. _VERSION:upper();
-  _LISCENCE = "SEE APACHE LISCENCE 2.0 OR THE GITHUB PAGE."
+  _LICENCE = "SEE APACHE LICENCE 2.0 OR THE GITHUB PAGE."
 }
 
 function stringplus.ascii()
